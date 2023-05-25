@@ -14,10 +14,14 @@ const {contacts}=store
 
 return (
 	<div className="d-flex flex-column justify-center mt-5 ">
+				<div class="d-flex align-items-center justify-content-center m-2">
+
 		<h1>Contact List</h1>
+		</div>
 		<div className="list-group contact-list">
 		{contacts.map((contact, index)=>
-		<div key={index}>
+		 <div key={index} className="d-flex justify-content-center align-items-center">
+		
 		<ContactCard 
 		name={contact.name}
 		address={contact.address}

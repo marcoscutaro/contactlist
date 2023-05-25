@@ -11,20 +11,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 				  email: "dave@gmail.com",
 				  img: badguys,
 				},
-				{
-					name: "Dave Bradley",
-					address: "47568 NW 34ST, 33434 FL, USA",
-					phone: "7864445566",
-					email: "dave@gmail.com",
-					img: badguys,
-				},
-				{
-					name: "Dave Bradley",
-					address: "47568 NW 34ST, 33434 FL, USA",
-					phone: "7864445566",
-					email: "dave@gmail.com",
-					img: badguys,
-				},
+				
 			  ],
 			},
 		actions: {
